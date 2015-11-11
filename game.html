@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title>PokeFight</title>
+		<title>Board Game</title>
 		<link rel="stylesheet" href="css/plateau.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<script type="text/javascript" src="bower_components/angular/angular.js"></script>
@@ -21,13 +21,19 @@
 		</div>
 		
 		<!-- App -->
+		<script type="text/javascript" src="weapon.js"></script>
+		<script type="text/javascript" src="player.js"></script>
 		<script type="text/javascript" src="game.js"></script>
-		<!-- Controllers -->
-		<script type="text/javascript" src="src/controllers/boardController.js"></script>
-		<!-- Services -->
-		<script type="text/javascript" src="src/services/boardProvider.js"></script>
+		
 		<!-- Directives -->
 		<script type="text/javascript" src="src/directives/boardCreator.js"></script>
+		<!-- Services -->
+		<script type="text/javascript" src="src/services/boardProvider.js"></script>
+		<script type="text/javascript" src="src/services/weaponProvider.js"></script>
+		<script type="text/javascript" src="src/services/playerProvider.js"></script>
+		<!-- Controllers -->
+		<script type="text/javascript" src="src/controllers/boardController.js"></script>
+		
 		
 	</body>
 </html>

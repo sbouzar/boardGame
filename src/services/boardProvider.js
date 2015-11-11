@@ -14,16 +14,19 @@ while(index < 10) {
     if (randomNb == i) {
       image.src = './images/water.png';
       image.alt = 'water';
+      image.id = 'water';
     } else {
       image.src = './images/sand.png';
       image.alt = 'sand';
+      image.id = 'sand';
     }
 		cases.push({
 			id: row[index] + i,
 			class: "case",
 			img: {
 				src: image.src,
-				alt: image.alt
+				alt: image.alt,
+				id: image.id
 			} 
 		});
 	}
