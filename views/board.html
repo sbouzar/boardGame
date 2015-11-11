@@ -1,0 +1,5 @@
+	<div class="row" ng-repeat="row in rows">
+		<span ng-repeat="cases in row" class="{{ cases.class }}">
+			<span id="{{ cases.id }}" ><img src="{{ cases.img.src }}" alt="{{ cases.img.alt }}" class="boardImg"></span>
+		</span>
+	</div>

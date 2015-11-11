@@ -1,0 +1,24 @@
+.case {
+	border: 1px solid gray;
+	width: 10%;
+	height: 84px;
+	display: inline-block;
+}
+
+.player, .weapon {
+	display: table;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	margin: auto;
+}
+
+.boardImg {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+img {
+	display: block;
+}

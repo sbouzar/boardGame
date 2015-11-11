@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>PokeFight</title>
+		<link rel="stylesheet" href="css/plateau.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	</head>
+	<body ng-app="boardgame">
+		<div class="container-fluid" ng-controller="gameController">
+			<div id="p1Container" class="label label-success col-sm-2 col-md-2 col-lg-2">
+				<h1>Bonjour !</h1>
+			</div>
+			<div id="gameContainer" class="container-fluid col-sm-8 col-md-8 col-lg-8">
+				<div create-board class="text-center"></div>
+			</div>
+			<div id="p2Container" class="label label-success col-sm-2 col-md-2 col-lg-2">
+				<h1>Bonjour !</h1>
+			</div>
+		</div>
+		
+		<!-- App -->
+		<script type="text/javascript" src="game.js"></script>
+		<!-- Controllers -->
+		<script type="text/javascript" src="src/controllers/boardController.js"></script>
+		<!-- Services -->
+		<script type="text/javascript" src="src/services/boardProvider.js"></script>
+		<!-- Directives -->
+		<script type="text/javascript" src="src/directives/boardCreator.js"></script>
+		
+	</body>
+</html>
